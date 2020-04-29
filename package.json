@@ -1,0 +1,28 @@
+{
+  "name": "knex_api_crud",
+  "version": "1.0.0",
+  "description": "API CRUD usando Knex.js",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielFernella/Knex_API_CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielFernella/Knex_API_CRUD/issues"
+  },
+  "homepage": "https://github.com/GabrielFernella/Knex_API_CRUD#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "pg": "^8.0.3"
+  }
+}
