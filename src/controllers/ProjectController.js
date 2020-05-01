@@ -19,6 +19,7 @@ module.exports = {
                     .where({ user_id })
                     .join('users', 'users.id', '=', 'projects.user_id') //Fazendo o Join entre a tabela de users e projects
                     .select('projects.*', 'users.username') // selecionado os valores que deverão ser retornados da tabela
+                    .where('users.deleted_at',null)
 
                 countProjectUser
                     .where({user_id})
