@@ -20,6 +20,7 @@ module.exports = {
             next(error)
         }
     },
+
     async update(req,res,next){
         try {
             const { username } = req.body
@@ -35,6 +36,7 @@ module.exports = {
             next(error)
         }
     },
+    
     async delete(req,res){
         try {
             const { id } = req.params
